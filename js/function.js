@@ -56,14 +56,15 @@ function gotData() {
 }
 
 function draw() {
- background(255,255,255);
- fill(0,0,0);
- text(latestData, 10, 10);
+ background(0,128,0);
+ fill(255,0,0);
+ text(latestData, 900, 400);
+// text("Potenciometro", 900, 200);
 
  if (serial.available() > 0) {
   let data = serial.read();
   let circleSize = map(latestData, 0, 1023, 10, 100);
-  ellipse(50,50,data,data);
+  ellipse(900,500,latestData,latestData);
  }
 
 }

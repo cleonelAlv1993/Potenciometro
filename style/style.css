@@ -1,14 +1,11 @@
 body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f5f5; /* Color de fondo, un tono de gris claro */
-  }
-
-  canvas {
-    border: 2px solid #4e92b2; /* Color del borde del lienzo, azul claro */
-    background-color: #e1f1f7; /* Color de fondo del lienzo, azul muy claro */
-  }
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2b9e57; /* Color de fondo, un tono de gris claro */
+  font-size: 50px;
+  width: auto;
+}

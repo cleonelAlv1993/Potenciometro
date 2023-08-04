@@ -13,5 +13,5 @@ void loop() {
   //Serial.print("El valor es= ");
   Serial.println(position);
   analogWrite(value, position);
-  delay(100);
+  delay(50);
 }
